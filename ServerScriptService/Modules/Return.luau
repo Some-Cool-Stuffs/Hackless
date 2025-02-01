@@ -12,28 +12,6 @@
 
 ]]
 
---[[
-
-  Usage:
-
-  local ServerScriptService = game:GetService("ServerScriptService")
-  local Modules: Folder = require(ServerScriptService:WaitForChild("Modules")
-
-  local Return: ModuleScript = require(Modules:WaitForChild("Return"))
-
-  local x: number = 1
-  local y: number = 2
-
-  local function sum(x: number, y: number): number
-    local final = x + y
-
-    return Return.serve(200, "Numbers have been added together!", {
-      sum = final
-    })
-  end
-
-]]
-
 local Return = {}
 
 Return.state = function(Case: any, Response: string)
