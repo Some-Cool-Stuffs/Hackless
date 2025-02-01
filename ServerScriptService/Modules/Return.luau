@@ -10,8 +10,12 @@
     - `serve`: First argument is "Code", error/response code. Second is "Output", the response message. Final one is "Attachments",
                things you'd like to attach to the response to be used later on.
 
+]]
+
+--[[
+
   Usage:
-  ```lua
+
   local ServerScriptService = game:GetService("ServerScriptService")
   local Modules: Folder = require(ServerScriptService:WaitForChild("Modules")
 
@@ -27,7 +31,6 @@
       sum = final
     })
   end
-  ```
 
 ]]
 
