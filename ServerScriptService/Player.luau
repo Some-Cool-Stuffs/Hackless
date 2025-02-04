@@ -30,12 +30,6 @@ local function calculateAcceleration(player: Player, current: CFrame, previous: 
 	Return.state(current ~= nil, "Player's current position may not be nil")
 	Return.state(previous ~= nil, "Player's last position may not be nil")
 	
-	local function convert(number: number)
-		local formatted = math.floor()
-		
-		return formatted
-	end
-	
 	local oldPositions = {x = previous.X, z = previous.Z}
 	local nowPositions = {x = current.X, z = current.Z}
 	
